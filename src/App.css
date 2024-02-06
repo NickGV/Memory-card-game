@@ -1,0 +1,20 @@
+.container {
+  max-width: 100%;
+  margin: 2rem;
+
+  & h1 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  & .score {
+    text-align: right;
+  }
+
+  & .game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+}

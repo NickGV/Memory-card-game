@@ -1,0 +1,10 @@
+.card {
+  max-width: 16.5625rem;
+  max-height: 18.75rem;
+  border-radius: 0.3125rem;
+  padding: 0.3rem;
+
+  & img {
+    border-radius: 0.3125rem;
+  }
+}
